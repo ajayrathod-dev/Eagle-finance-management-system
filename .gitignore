@@ -1,0 +1,17 @@
+# Logs
+error_log
+*.log
+
+# Sensitive database configuration (use connection.example.php instead)
+# Uncomment the line below if you want to keep your local db credentials private:
+# connection.php
+
+# User uploads (keep directory with .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
